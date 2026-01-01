@@ -184,7 +184,7 @@ class Program
         Console.WriteLine("Options:");
         Console.WriteLine("  <url> If single parameter assume is the URL. Ignore other params.");                 
         Console.WriteLine("  --link, -l             URL or text to encode. Default is the embedded APK URL.");
-        Console.WriteLine("  --name, --file, -n, -f File name for the generated QR (with or without extension). Default: qrcode1");
+        Console.WriteLine("  --name, --file, -n, -f File name for the generated QR (with or without extension). Default: qrcode");
         Console.WriteLine("  --location, -o         Directory to save the file. Default: c:\\temp");
         Console.WriteLine("  -h, --help             Show this help message.");
     }

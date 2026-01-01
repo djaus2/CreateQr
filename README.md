@@ -9,7 +9,7 @@ Usage:
 Options:
   <url>                  If single parameter assume is the URL. Ignore other params.
   --link, -l             URL or text to encode. Default is the embedded APK URL.
-  --name, --file, -n, -f File name for the generated QR (with or without extension). Default: qrcode1
+  --name, --file, -n, -f File name for the generated QR (with or without extension). Default: qrcode
   --location, -o         Directory to save the file. Default: c:\temp
   -h, --help             Show this help message.
 ```
