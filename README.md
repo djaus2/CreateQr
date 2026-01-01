@@ -7,6 +7,7 @@ Usage:
   CreateQR [--link=<url>] [--name=<filename>] [--location=<dir>]
 
 Options:
+  <url>                  If single parameter assume is the .
   --link, -l             URL or text to encode. Default is the embedded APK URL.
   --name, --file, -n, -f File name for the generated QR (with or without extension). Default: qrcode1
   --location, -o         Directory to save the file. Default: c:\temp
@@ -14,3 +15,5 @@ Options:
 ```
 
 Uses Nuget package [QRCoder](https://www.nuget.org/packages/QRCoder)
+
+***Was used to create a QR Code image for link to Android APK package for sideloading on the phone.*** 
