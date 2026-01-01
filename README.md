@@ -1,6 +1,6 @@
 ## CreateQR
 
-A simople C# Console app to create a QR Code that when viewed from a phone, a linked file is downloaded to the phone.
+A simple C# Console app to create a QR Code that when viewed from a phone, a linked file is downloaded to the phone.
 
 ```
 Usage:
