@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "CreateQr": {
+      "commandName": "Project",
+      "commandLineArgs": "-0=c:\\temp\\qrs2\r\n-f=qrcode12"
+    }
+  }
+}
