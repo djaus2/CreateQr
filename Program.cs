@@ -179,10 +179,10 @@ class Program
     static void ShowHelp()
     {
         Console.WriteLine("Usage:");
-        Console.WriteLine("  CreateQR [--link=<url>] [--name=<filename>] [--location=<dir>]");
+        Console.WriteLine("  CreateQR [<url>] [--link=<url>] [--name=<filename>] [--location=<dir>]");
         Console.WriteLine();
         Console.WriteLine("Options:");
-        Console.WriteLine("  <url> If single parameter assume is the URL");                 
+        Console.WriteLine("  <url> If single parameter assume is the URL. Ignore other params.");                 
         Console.WriteLine("  --link, -l             URL or text to encode. Default is the embedded APK URL.");
         Console.WriteLine("  --name, --file, -n, -f File name for the generated QR (with or without extension). Default: qrcode1");
         Console.WriteLine("  --location, -o         Directory to save the file. Default: c:\\temp");
