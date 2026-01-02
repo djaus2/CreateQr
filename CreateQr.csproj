@@ -17,4 +17,18 @@
     <PackageReference Include="TextCopy" Version="5.0.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <_DirsToRemove Include="$(MSBuildProjectDirectory)/obj" />
+  </ItemGroup>
+
+
+  <Target Name="PreBuildDeleteCTemp" BeforeTargets="BeforeBuild">
+    <!-- Run bash command in Codespaces -->
+    <Exec
+      Command="bash -c &quot;rm -rf 'c:\temp'&quot;"
+      Condition=" '$(OS)' != 'Windows_NT' "
+      StandardOutputImportance="High"
+      StandardErrorImportance="High" />
+  </Target>
+
 </Project>

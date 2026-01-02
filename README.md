@@ -20,8 +20,12 @@ Click the badge below to open this project in a ready-to-use development environ
  with:
 
 ```bash
+dotnet build
 dotnet run 
 ```
+
+> Nb Need to do build for each run. Leave image folder as c:\temp as that get deleted
+
 
 ---
 
