@@ -8,7 +8,7 @@ A simple C# Console app to create a QR Code that when viewed from a phone, a lin
 
 ## 🚀 Run in GitHub Codespaces
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/github/docs)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/djaus2/Createapp?quickstart=1)
 
 ![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)
 
