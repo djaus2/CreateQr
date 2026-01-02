@@ -1,6 +1,6 @@
 ## CreateQR
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)
 
 A simple C# Console app to create a QR Code that when viewed from a phone, a linked file is downloaded to the phone.
 
