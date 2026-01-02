@@ -18,7 +18,7 @@ Click the badge below to open this project in a ready-to-use development environ
  with:
 
 ```bash
-dotnet run --project src/CreateQR
+dotnet run --  <params>
 ```
 
 ---
