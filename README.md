@@ -9,17 +9,21 @@ A simple C# Console app to create a QR Code that when viewed from a phone, a lin
 ## 🚀 Run in GitHub Codespaces
 
 
-
-
 Click the badge below to open this project in a ready-to-use development environment in your browser:
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/djaus2/Createapp?quickstart=1)
+[![Open in NEW GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/djaus2/Createapp?quickstart=1)   NEW
+
+[![Open in existing GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://effective-fortnight-5gvxjrq6wj4cp77r.github.dev/) EXISTING
 
  with:
 
 ```bash
-dotnet run --  <params>
+dotnet build
+dotnet run 
 ```
+
+> Nb Need to do build for each run. Leave image folder as c:\temp as that get deleted
+
 
 ---
 
