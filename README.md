@@ -1,8 +1,29 @@
 ## CreateQR
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg
-
 A simple C# Console app to create a QR Code that when viewed from a phone, a linked file is downloaded to the phone.
+
+---
+
+## Try Me
+
+## 🚀 Run in GitHub Codespaces
+
+
+
+
+Click the badge below to open this project in a ready-to-use development environment in your browser:
+
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/djaus2/Createapp?quickstart=1)
+
+ with:
+
+```bash
+dotnet run --project src/CreateQR
+```
+
+---
+
+
 
 ```
 Usage:
