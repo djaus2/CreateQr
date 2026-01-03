@@ -16,7 +16,7 @@ Click the badge below to open this project in a ready-to-use development environ
  with:
 
 ```bash
-dotnet build # May need to do twice.
+dotnet build
 dotnet run -- <params>
 # Subsequent runs:
 dotnet run --no-build 
