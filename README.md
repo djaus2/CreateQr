@@ -1,6 +1,7 @@
 ## CreateQR
 
-A simple C# Console app to create a QR Code that when viewed from a phone, a linked file is downloaded to the phone.
+***A simple C# Console app to create a QR Code that when viewed from a phone, a linked file is downloaded to the phone.
+Used to download and APK to an Android phone.***
 
 ---
 
@@ -25,7 +26,7 @@ dotnet run --no-build -- --link=https://example.com --name=myqr --location=/tmp
 dotnet run --no-build -- -l https://example.com -n myqr -o /tmp
 ```
 
-- In Linux use /tmp/qr as the location 
+- In Linux use /tmp/qr as the location, on Windows use c:\temp\qr (create folder first). 
 - Set Instance timeout to 10 minutes. Set Instance gets deleted after 2 days.
 - Once you have run the app, you can download the QR code image from the `c:\temp` or '/tmp/qr' folder in the Codespace.
 
