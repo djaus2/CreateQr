@@ -10,7 +10,7 @@ class Program
         const string defaultLink = "https://weblocation/androidpackage/apk/androidpackage.apk";
         const string defaultName = "qrcode";
         const string defaultExt = "png";
-        const string defaultLocation = @"c:\temp";
+        const string defaultLocation = @"/tmp/qr";
         const int numParamChars = 4; // number of chars to consider for parameter matching
 
         string? link = null;
