@@ -18,7 +18,7 @@ Click the badge below to open this project in a ready-to-use development environ
  with:
 
 ```bash
-dotnet build # May need to do twice.
+dotnet build
 dotnet run -- <params>
 # Subsequent runs:
 dotnet run --no-build 
@@ -27,11 +27,10 @@ dotnet run --no-build -- --link=https://example.com --name=myqr --location=/tmp
 dotnet run --no-build -- -l https://example.com -n myqr -o /tmp
 ```
 
-- Nb: Need to do build for each run. _Get errors if just run without build first._
-- Leave image folder as c:\temp as that gets deleted with the build. 
+- Leave image folder as ```/tmp/qr``` as this shows in **Explore**. 
 - And instance timeout is 5 minutes.  
-- Once you have run the app, you can download the QR code image from the `c:\temp` folder in the Codespace.
-
+- Once you have run the app, you can download the QR code image from the `/tmp/qr` folder in the Codespace.
+- Instance timeout is 5 minutes. Instance gets deleted after 2 days.
 
 ---
 
