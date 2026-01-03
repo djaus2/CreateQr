@@ -16,7 +16,7 @@ class Program
         string? link = null;
         string? name = null;
         string? location = null;
-        bool copyToClipboard = true;
+        bool copyToClipboard = false;
 
         if(args.Length == 0)
         {
@@ -33,12 +33,16 @@ class Program
             input = Console.ReadLine() ?? string.Empty;
             location = string.IsNullOrWhiteSpace(input) ? defaultLocation : input.Trim();
 
-            Console.Write($"Copy to clipboard? [Y/n] (default: {(copyToClipboard ? "Y" : "n")}): ");
-            input = Console.ReadLine() ?? string.Empty;
-            if (!string.IsNullOrWhiteSpace(input))
+            if(copyToClipboard)
             {
-                var v = input.Trim().ToLowerInvariant();
-                copyToClipboard = v == "y" || v == "yes" || v == "1";
+                // Opt out only if default is true
+                Console.Write($"Copy to clipboard? [Y/n] (default: {(copyToClipboard ? "Y" : "n")}): ");
+                input = Console.ReadLine() ?? string.Empty;
+                if (!string.IsNullOrWhiteSpace(input))
+                {
+                    var v = input.Trim().ToLowerInvariant();
+                    copyToClipboard = v == "y" || v == "yes" || v == "1";
+                }
             }
         }
         else if (args is { Length: > 0 } &&
