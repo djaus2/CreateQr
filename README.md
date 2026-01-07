@@ -1,7 +1,7 @@
 ## CreateQR
 
 ***A simple C# Console app to create a QR Code that when viewed from a phone, a linked file is downloaded to the phone.
-Used to download and APK to an Android phone.*** xx
+Used to download and APK to an Android phone.***
 
 ---
 
